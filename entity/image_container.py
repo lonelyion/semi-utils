@@ -152,6 +152,8 @@ class ImageContainer(object):
         return self.get_watermark_img().width
 
     def get_model(self):
+        if self.model is 'NIKON Z50_2'
+            self.model = 'NIKON Z50II'
         return self.model
 
     def get_make(self):
